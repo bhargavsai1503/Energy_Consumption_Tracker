@@ -1,0 +1,36 @@
+# Backend Dependencies
+express==4.18.2
+cors==2.8.5
+dotenv==16.0.3
+pg==8.10.0
+body-parser==1.20.1
+axios==1.4.0
+nodemon==3.0.1
+
+# Frontend Dependencies
+react==18.2.0
+react-dom==18.2.0
+react-chartjs-2==5.2.0
+chart.js==4.4.1
+axios==1.4.0
+vite==5.0.0
+
+
+
+### **Installation Instructions**
+Since this is a **Node.js project**, 
+instead of `pip install -r requirements.txt`, use:
+
+#### **For Backend**
+```bash
+cd server
+npm install
+npm start
+```
+
+#### **For Frontend**
+```bash
+cd client
+npm install
+npm run dev
+```
